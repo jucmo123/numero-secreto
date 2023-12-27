@@ -4,13 +4,32 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 /* Passos/comandos git para clonar repositório
-- Acessar repositório do projeto, clicar e copiar link;
-- Abrir o terminal do windows na pasta a clonar o repositório e digitar o comando:
+
+Acessar repositório do projeto, clicar e copiar link;
+Abrir o terminal do windows na pasta a clonar o repositório e digitar o comando:
     git clone git@github.com:jucmo123/numero-secreto.git
     (Acima, clonando o: https://github.com/jucmo123/numero-secreto)
     Feito isso, a pasta do repositório estará disponível no local indicado
-- Abrir na IDE e fazer alguma alteração e salvar
-- 
+Abrir na IDE e fazer alguma alteração e salvar
+git status
+    Verifica quais arquivos foram alterados, mas:
+    Vermelho: arquivos modificados que não foram adicionados para fazer o commit
+    git add . (faz a adição dos arquivos modificados)
+git status (novamente para checar)
+    Verde: Os arquivos modificados foram adicionados/registrados para o commit
+git commit -m "Aqui, mensagem descrevendo a alteração do código"
+    A mensagem entre aspas, vai aparecer no repositório online do GitHub
+git log
+    Mostra o histórico das alterações, com datas e quem as fez ao longo do tempo
+git remote
+    Mostra o nome (origin) do repositório clonado
+    Resumindo, temos o repositório remoto adicionado
+git push origin main
+    Envia cópia do repositório para o GitHub
+    "origin" é o apelido do repositório remoto
+    Feito isso, atualizar o repositório no GitHub que o commite já estará disponível
+
+
 
 
 
