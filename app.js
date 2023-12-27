@@ -5,6 +5,8 @@ let tentativas = 1;
 
 /* Passos/comandos git para clonar repositório
 
+TESTE ANTES DE BAIXAR DO GITHUB
+
 Acessar repositório do projeto, clicar e copiar link;
 Abrir o terminal do windows na pasta a clonar o repositório e digitar o comando:
     git clone git@github.com:jucmo123/numero-secreto.git
