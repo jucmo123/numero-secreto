@@ -14,7 +14,7 @@ Abrir na IDE e fazer alguma alteração e salvar
 git status
     Verifica quais arquivos foram alterados, mas:
     Vermelho: arquivos modificados que não foram adicionados para fazer o commit
-    git add . (faz a adição dos arquivos modificados)
+git add . (faz a adição dos arquivos modificados)
 git status (novamente para checar)
     Verde: Os arquivos modificados foram adicionados/registrados para o commit
 git commit -m "Aqui, mensagem descrevendo a alteração do código"
@@ -28,10 +28,6 @@ git push origin main
     Envia cópia do repositório para o GitHub
     "origin" é o apelido do repositório remoto
     Feito isso, atualizar o repositório no GitHub que o commite já estará disponível
-
-
-
-
 
 */
 
