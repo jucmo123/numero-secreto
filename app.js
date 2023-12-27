@@ -31,6 +31,12 @@ git push origin main
     "origin" é o apelido do repositório remoto
     Feito isso, atualizar o repositório no GitHub que o commite já estará disponível
 
+Abaixo, comandos usados após alterar pasta do repositório PC:
+git fetch origin
+
+hopefully this is good enough for git status to start working again
+git pull 
+
 */
 
 function exibirTextoNaTela(tag, texto) {
